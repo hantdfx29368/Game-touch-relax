@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3DF2A32B33EC0A00D6FBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DF2A22B33EC0A00D6FBCB /* AppDelegate.swift */; };
+		0F3DF2A52B33EC0A00D6FBCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DF2A42B33EC0A00D6FBCB /* GameScene.sks */; };
+		0F3DF2A72B33EC0A00D6FBCB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DF2A62B33EC0A00D6FBCB /* Actions.sks */; };
+		0F3DF2A92B33EC0A00D6FBCB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DF2A82B33EC0A00D6FBCB /* GameScene.swift */; };
+		0F3DF2AB2B33EC0A00D6FBCB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DF2AA2B33EC0A00D6FBCB /* GameViewController.swift */; };
+		0F3DF2AE2B33EC0A00D6FBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DF2AC2B33EC0A00D6FBCB /* Main.storyboard */; };
+		0F3DF2B02B33EC0C00D6FBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DF2AF2B33EC0C00D6FBCB /* Assets.xcassets */; };
+		0F3DF2B32B33EC0C00D6FBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3DF2B12B33EC0C00D6FBCB /* LaunchScreen.storyboard */; };
+		0F3DF2BD2B33EC0C00D6FBCB /* Game__touch_relaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DF2BC2B33EC0C00D6FBCB /* Game__touch_relaxTests.swift */; };
+		0F3DF2C72B33EC0C00D6FBCB /* Game__touch_relaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DF2C62B33EC0C00D6FBCB /* Game__touch_relaxUITests.swift */; };
+		0F3DF2C92B33EC0C00D6FBCB /* Game__touch_relaxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DF2C82B33EC0C00D6FBCB /* Game__touch_relaxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F3DF2B92B33EC0C00D6FBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3DF2972B33EC0A00D6FBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3DF29E2B33EC0A00D6FBCB;
+			remoteInfo = "Game  touch relax";
+		};
+		0F3DF2C32B33EC0C00D6FBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3DF2972B33EC0A00D6FBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3DF29E2B33EC0A00D6FBCB;
+			remoteInfo = "Game  touch relax";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3DF29F2B33EC0A00D6FBCB /* Game  touch relax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game  touch relax.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3DF2A22B33EC0A00D6FBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F3DF2A42B33EC0A00D6FBCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0F3DF2A62B33EC0A00D6FBCB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		0F3DF2A82B33EC0A00D6FBCB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0F3DF2AA2B33EC0A00D6FBCB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0F3DF2AD2B33EC0A00D6FBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F3DF2AF2B33EC0C00D6FBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F3DF2B22B33EC0C00D6FBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F3DF2B82B33EC0C00D6FBCB /* Game  touch relaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game  touch relaxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3DF2BC2B33EC0C00D6FBCB /* Game__touch_relaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game__touch_relaxTests.swift; sourceTree = "<group>"; };
+		0F3DF2C22B33EC0C00D6FBCB /* Game  touch relaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game  touch relaxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3DF2C62B33EC0C00D6FBCB /* Game__touch_relaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game__touch_relaxUITests.swift; sourceTree = "<group>"; };
+		0F3DF2C82B33EC0C00D6FBCB /* Game__touch_relaxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game__touch_relaxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3DF29C2B33EC0A00D6FBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DF2B52B33EC0C00D6FBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DF2BF2B33EC0C00D6FBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3DF2962B33EC0A00D6FBCB = {
+			isa = PBXGroup;
+			children = (
+				0F3DF2A12B33EC0A00D6FBCB /* Game  touch relax */,
+				0F3DF2BB2B33EC0C00D6FBCB /* Game  touch relaxTests */,
+				0F3DF2C52B33EC0C00D6FBCB /* Game  touch relaxUITests */,
+				0F3DF2A02B33EC0A00D6FBCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F3DF2A02B33EC0A00D6FBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DF29F2B33EC0A00D6FBCB /* Game  touch relax.app */,
+				0F3DF2B82B33EC0C00D6FBCB /* Game  touch relaxTests.xctest */,
+				0F3DF2C22B33EC0C00D6FBCB /* Game  touch relaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F3DF2A12B33EC0A00D6FBCB /* Game  touch relax */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DF2A22B33EC0A00D6FBCB /* AppDelegate.swift */,
+				0F3DF2A42B33EC0A00D6FBCB /* GameScene.sks */,
+				0F3DF2A62B33EC0A00D6FBCB /* Actions.sks */,
+				0F3DF2A82B33EC0A00D6FBCB /* GameScene.swift */,
+				0F3DF2AA2B33EC0A00D6FBCB /* GameViewController.swift */,
+				0F3DF2AC2B33EC0A00D6FBCB /* Main.storyboard */,
+				0F3DF2AF2B33EC0C00D6FBCB /* Assets.xcassets */,
+				0F3DF2B12B33EC0C00D6FBCB /* LaunchScreen.storyboard */,
+			);
+			path = "Game  touch relax";
+			sourceTree = "<group>";
+		};
+		0F3DF2BB2B33EC0C00D6FBCB /* Game  touch relaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DF2BC2B33EC0C00D6FBCB /* Game__touch_relaxTests.swift */,
+			);
+			path = "Game  touch relaxTests";
+			sourceTree = "<group>";
+		};
+		0F3DF2C52B33EC0C00D6FBCB /* Game  touch relaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DF2C62B33EC0C00D6FBCB /* Game__touch_relaxUITests.swift */,
+				0F3DF2C82B33EC0C00D6FBCB /* Game__touch_relaxUITestsLaunchTests.swift */,
+			);
+			path = "Game  touch relaxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F3DF29E2B33EC0A00D6FBCB /* Game  touch relax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3DF2CC2B33EC0C00D6FBCB /* Build configuration list for PBXNativeTarget "Game  touch relax" */;
+			buildPhases = (
+				0F3DF29B2B33EC0A00D6FBCB /* Sources */,
+				0F3DF29C2B33EC0A00D6FBCB /* Frameworks */,
+				0F3DF29D2B33EC0A00D6FBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game  touch relax";
+			productName = "Game  touch relax";
+			productReference = 0F3DF29F2B33EC0A00D6FBCB /* Game  touch relax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F3DF2B72B33EC0C00D6FBCB /* Game  touch relaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3DF2CF2B33EC0C00D6FBCB /* Build configuration list for PBXNativeTarget "Game  touch relaxTests" */;
+			buildPhases = (
+				0F3DF2B42B33EC0C00D6FBCB /* Sources */,
+				0F3DF2B52B33EC0C00D6FBCB /* Frameworks */,
+				0F3DF2B62B33EC0C00D6FBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3DF2BA2B33EC0C00D6FBCB /* PBXTargetDependency */,
+			);
+			name = "Game  touch relaxTests";
+			productName = "Game  touch relaxTests";
+			productReference = 0F3DF2B82B33EC0C00D6FBCB /* Game  touch relaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F3DF2C12B33EC0C00D6FBCB /* Game  touch relaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3DF2D22B33EC0C00D6FBCB /* Build configuration list for PBXNativeTarget "Game  touch relaxUITests" */;
+			buildPhases = (
+				0F3DF2BE2B33EC0C00D6FBCB /* Sources */,
+				0F3DF2BF2B33EC0C00D6FBCB /* Frameworks */,
+				0F3DF2C02B33EC0C00D6FBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3DF2C42B33EC0C00D6FBCB /* PBXTargetDependency */,
+			);
+			name = "Game  touch relaxUITests";
+			productName = "Game  touch relaxUITests";
+			productReference = 0F3DF2C22B33EC0C00D6FBCB /* Game  touch relaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F3DF2972B33EC0A00D6FBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0F3DF29E2B33EC0A00D6FBCB = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					0F3DF2B72B33EC0C00D6FBCB = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0F3DF29E2B33EC0A00D6FBCB;
+					};
+					0F3DF2C12B33EC0C00D6FBCB = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 0F3DF29E2B33EC0A00D6FBCB;
+					};
+				};
+			};
+			buildConfigurationList = 0F3DF29A2B33EC0A00D6FBCB /* Build configuration list for PBXProject "Game  touch relax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F3DF2962B33EC0A00D6FBCB;
+			productRefGroup = 0F3DF2A02B33EC0A00D6FBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3DF29E2B33EC0A00D6FBCB /* Game  touch relax */,
+				0F3DF2B72B33EC0C00D6FBCB /* Game  touch relaxTests */,
+				0F3DF2C12B33EC0C00D6FBCB /* Game  touch relaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F3DF29D2B33EC0A00D6FBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DF2AE2B33EC0A00D6FBCB /* Main.storyboard in Resources */,
+				0F3DF2A52B33EC0A00D6FBCB /* GameScene.sks in Resources */,
+				0F3DF2B02B33EC0C00D6FBCB /* Assets.xcassets in Resources */,
+				0F3DF2B32B33EC0C00D6FBCB /* LaunchScreen.storyboard in Resources */,
+				0F3DF2A72B33EC0A00D6FBCB /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DF2B62B33EC0C00D6FBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DF2C02B33EC0C00D6FBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F3DF29B2B33EC0A00D6FBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DF2A92B33EC0A00D6FBCB /* GameScene.swift in Sources */,
+				0F3DF2AB2B33EC0A00D6FBCB /* GameViewController.swift in Sources */,
+				0F3DF2A32B33EC0A00D6FBCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DF2B42B33EC0C00D6FBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DF2BD2B33EC0C00D6FBCB /* Game__touch_relaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DF2BE2B33EC0C00D6FBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DF2C72B33EC0C00D6FBCB /* Game__touch_relaxUITests.swift in Sources */,
+				0F3DF2C92B33EC0C00D6FBCB /* Game__touch_relaxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F3DF2BA2B33EC0C00D6FBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3DF29E2B33EC0A00D6FBCB /* Game  touch relax */;
+			targetProxy = 0F3DF2B92B33EC0C00D6FBCB /* PBXContainerItemProxy */;
+		};
+		0F3DF2C42B33EC0C00D6FBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3DF29E2B33EC0A00D6FBCB /* Game  touch relax */;
+			targetProxy = 0F3DF2C32B33EC0C00D6FBCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F3DF2AC2B33EC0A00D6FBCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3DF2AD2B33EC0A00D6FBCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F3DF2B12B33EC0C00D6FBCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3DF2B22B33EC0C00D6FBCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F3DF2CA2B33EC0C00D6FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F3DF2CB2B33EC0C00D6FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F3DF2CD2B33EC0C00D6FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34GCLXQHR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XC-Studio-gameVZX-chat-gptUITests.Game--touch-relax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F3DF2CE2B33EC0C00D6FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34GCLXQHR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XC-Studio-gameVZX-chat-gptUITests.Game--touch-relax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F3DF2D02B33EC0C00D6FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34GCLXQHR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XC-Studio-gameVZX-chat-gptUITests.Game--touch-relaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game  touch relax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game  touch relax";
+			};
+			name = Debug;
+		};
+		0F3DF2D12B33EC0C00D6FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34GCLXQHR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XC-Studio-gameVZX-chat-gptUITests.Game--touch-relaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game  touch relax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game  touch relax";
+			};
+			name = Release;
+		};
+		0F3DF2D32B33EC0C00D6FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34GCLXQHR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XC-Studio-gameVZX-chat-gptUITests.Game--touch-relaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Game  touch relax";
+			};
+			name = Debug;
+		};
+		0F3DF2D42B33EC0C00D6FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34GCLXQHR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XC-Studio-gameVZX-chat-gptUITests.Game--touch-relaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Game  touch relax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3DF29A2B33EC0A00D6FBCB /* Build configuration list for PBXProject "Game  touch relax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3DF2CA2B33EC0C00D6FBCB /* Debug */,
+				0F3DF2CB2B33EC0C00D6FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3DF2CC2B33EC0C00D6FBCB /* Build configuration list for PBXNativeTarget "Game  touch relax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3DF2CD2B33EC0C00D6FBCB /* Debug */,
+				0F3DF2CE2B33EC0C00D6FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3DF2CF2B33EC0C00D6FBCB /* Build configuration list for PBXNativeTarget "Game  touch relaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3DF2D02B33EC0C00D6FBCB /* Debug */,
+				0F3DF2D12B33EC0C00D6FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3DF2D22B33EC0C00D6FBCB /* Build configuration list for PBXNativeTarget "Game  touch relaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3DF2D32B33EC0C00D6FBCB /* Debug */,
+				0F3DF2D42B33EC0C00D6FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F3DF2972B33EC0A00D6FBCB /* Project object */;
+}
